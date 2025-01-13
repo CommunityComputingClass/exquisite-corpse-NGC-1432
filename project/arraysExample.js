@@ -30,3 +30,13 @@ function setup() {
     fill("white")
      rect(x+190, y-10, 10, 10);
  }
+ function eyeSauron(x,y){
+  fill("white")
+  ellipse(x,y,250,125)
+  fill("lavender")
+  ellipse(x,y,100,100)
+  fill("black")
+  ellipse(x,y,50,50)
+  fill("white")
+  ellipse(x-5,y-5,15,15)
+}
